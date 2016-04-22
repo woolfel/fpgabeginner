@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/pete/Documents/GitHub/fpgabeginner/myhdl/pwm/pwm_module.xst" -ofn "C:/Users/pete/Documents/GitHub/fpgabeginner/myhdl/pwm/pwm_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 pwm_module.ngc pwm_module.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_module_map.ncd pwm_module.ngd pwm_module.pcf 
+par -w -intstyle ise -ol high -mt off pwm_module_map.ncd pwm_module.ncd pwm_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml pwm_module.twx pwm_module.ncd -o pwm_module.twr pwm_module.pcf 
+xst -intstyle ise -ifn "C:/Users/pete/Documents/GitHub/fpgabeginner/myhdl/pwm/pwm_module.xst" -ofn "C:/Users/pete/Documents/GitHub/fpgabeginner/myhdl/pwm/pwm_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 pwm_module.ngc pwm_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_module_map.ncd pwm_module.ngd pwm_module.pcf 
+par -w -intstyle ise -ol high -mt off pwm_module_map.ncd pwm_module.ncd pwm_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml pwm_module.twx pwm_module.ncd -o pwm_module.twr pwm_module.pcf 
+bitgen -intstyle ise -f pwm_module.ut pwm_module.ncd 

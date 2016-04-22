@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/pete/Documents/GitHub/fpgabeginner/myhdl/pwm/pwmModule.xst" -ofn "C:/Users/pete/Documents/GitHub/fpgabeginner/myhdl/pwm/pwmModule.syr" 
+xst -intstyle ise -ifn "C:/Users/pete/Documents/GitHub/fpgabeginner/myhdl/pwm/pwmModule.xst" -ofn "C:/Users/pete/Documents/GitHub/fpgabeginner/myhdl/pwm/pwmModule.syr" 

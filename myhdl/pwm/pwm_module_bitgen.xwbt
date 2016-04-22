@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\pete\Documents\GitHub\fpgabeginner\myhdl\pwm\pwm_module.ncd
+OUTFILE=C:\Users\pete\Documents\GitHub\fpgabeginner\myhdl\pwm\pwm_module.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\pete\Documents\GitHub\fpgabeginner\myhdl\pwm
+LICENSE=WebPack
+USER_INFO=211186167_0_0_775
