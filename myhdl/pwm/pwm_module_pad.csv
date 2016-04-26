@@ -1,7 +1,7 @@
 #Release 14.7 - par P.20131013 (nt64)
 #Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-#Fri Apr 22 10:38:01 2016
+#Mon Apr 25 13:04:25 2016
 
 #
 ## NOTE: This file is designed to be imported into a spreadsheet program
@@ -12,7 +12,7 @@
 #INPUT FILE:       pwm_module_map.ncd
 #OUTPUT FILE:      pwm_module_pad.csv
 #PART TYPE:        xc6slx9
-#SPEED GRADE:      -3
+#SPEED GRADE:      -2
 #PACKAGE:          tqg144
 #
 # Pinout by Pin Number:

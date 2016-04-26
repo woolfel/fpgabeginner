@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder4.xst" -ofn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 full_adder4.ngc full_adder4.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_adder4_map.ncd full_adder4.ngd full_adder4.pcf 
+par -w -intstyle ise -ol high -mt off full_adder4_map.ncd full_adder4.ncd full_adder4.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml full_adder4.twx full_adder4.ncd -o full_adder4.twr full_adder4.pcf 
+xst -intstyle ise -ifn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder4.xst" -ofn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 full_adder4.ngc full_adder4.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_adder4_map.ncd full_adder4.ngd full_adder4.pcf 
+par -w -intstyle ise -ol high -mt off full_adder4_map.ncd full_adder4.ncd full_adder4.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml full_adder4.twx full_adder4.ncd -o full_adder4.twr full_adder4.pcf 
+bitgen -intstyle ise -f full_adder4.ut full_adder4.ncd 
+xst -intstyle ise -ifn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder4.xst" -ofn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 full_adder4.ngc full_adder4.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_adder4_map.ncd full_adder4.ngd full_adder4.pcf 
+par -w -intstyle ise -ol high -mt off full_adder4_map.ncd full_adder4.ncd full_adder4.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml full_adder4.twx full_adder4.ncd -o full_adder4.twr full_adder4.pcf 

@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder.xst" -ofn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder.syr" 
+xst -intstyle ise -ifn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder.xst" -ofn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder.syr" 
+xst -intstyle ise -ifn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder.xst" -ofn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 full_adder.ngc full_adder.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 full_adder.ngc full_adder.ngd  
+xst -intstyle ise -ifn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder.xst" -ofn "C:/Users/pete/Documents/GitHub/fpgabeginner/fullAdder/full_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 full_adder.ngc full_adder.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+par -w -intstyle ise -ol high -mt off full_adder_map.ncd full_adder.ncd full_adder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml full_adder.twx full_adder.ncd -o full_adder.twr full_adder.pcf 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\pete\Documents\GitHub\fpgabeginner\fullAdder\full_adder4.ncd
+OUTFILE=C:\Users\pete\Documents\GitHub\fpgabeginner\fullAdder\full_adder4.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\pete\Documents\GitHub\fpgabeginner\fullAdder
+LICENSE=WebPack
+USER_INFO=211186167_0_0_775

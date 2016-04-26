@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-LOGAN::  Fri Apr 22 10:37:57 2016
+LOGAN::  Mon Apr 25 13:04:22 2016
 
 par -w -intstyle ise -ol high -mt off pwm_module_map.ncd pwm_module.ncd
 pwm_module.pcf 
@@ -9,7 +9,7 @@ pwm_module.pcf
 
 Constraints file: pwm_module.pcf.
 Loading device for application Rf_Device from file '6slx9.nph' in environment e:\Xilinx\14.7\ISE_DS\ISE\.
-   "pwm_module" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -3
+   "pwm_module" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -2
 
 Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
 Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
@@ -102,9 +102,9 @@ Phase  1  : 154 unrouted;      REAL time: 2 secs
 
 Phase  2  : 118 unrouted;      REAL time: 2 secs 
 
-Phase  3  : 53 unrouted;      REAL time: 3 secs 
+Phase  3  : 49 unrouted;      REAL time: 3 secs 
 
-Phase  4  : 53 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+Phase  4  : 49 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
 
 Updating file: pwm_module.ncd with current fully routed design.
 
@@ -140,8 +140,8 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clk | SETUP       |         N/A|     3.798ns|     N/A|           0
-  _BUFGP                                    | HOLD        |     1.006ns|            |       0|           0
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     4.334ns|     N/A|           0
+  _BUFGP                                    | HOLD        |     1.036ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 

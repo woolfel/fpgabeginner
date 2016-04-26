@@ -3,14 +3,14 @@ Xilinx Mapping Report File for Design 'pwm_module'
 
 Design Information
 ------------------
-Command Line   : map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol
+Command Line   : map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol
 high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
 -pr off -lc off -power off -o pwm_module_map.ncd pwm_module.ngd pwm_module.pcf 
 Target Device  : xc6slx9
 Target Package : tqg144
-Target Speed   : -3
+Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Fri Apr 22 10:37:50 2016
+Mapped Date    : Mon Apr 25 13:04:14 2016
 
 Design Summary
 --------------
@@ -81,7 +81,7 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                1.64
 
-Peak Memory Usage:  402 MB
+Peak Memory Usage:  393 MB
 Total REAL time to MAP completion:  5 secs 
 Total CPU time to MAP completion:   4 secs 
 
